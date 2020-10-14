@@ -54,15 +54,15 @@ require("res/ver.php");
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="dashboard/plugins/fontawesome-free/css/all.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- icheck bootstrap -->
-    <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <link rel="stylesheet" href="dashboard/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="dist/css/adminlte.min.css">
-    <link href="assets/plugins/alertify/css/alertify.css" type="text/css">
-    <link rel="stylesheet" href="plugins/pace-progress/themes/blue/pace-theme-flat-top.css">
+    <link rel="stylesheet" href="dashboard/dist/css/adminlte.min.css">
+    <link href="dashboard/assets/plugins/alertify/css/alertify.css" type="text/css">
+    <link rel="stylesheet" href="dashboard/plugins/pace-progress/themes/blue/pace-theme-flat-top.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -118,13 +118,13 @@ require("res/ver.php");
     <!-- /.login-box -->
 
     <!-- jQuery -->
-    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <script src="dashboard/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
-    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="dashboard/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
-    <script src="../../dist/js/adminlte.min.js"></script>
-    <script src="assets/plugins/alertify/js/alertify.js"></script>
-    <script src="plugins/pace-progress/pace.min.js"></script>
+    <script src="dashboard/dist/js/adminlte.min.js"></script>
+    <script src="dashboard/assets/plugins/alertify/js/alertify.js"></script>
+    <script src="dashboard/plugins/pace-progress/pace.min.js"></script>
     <script>
     $(document).ready(function() {
         $('form').parsley();

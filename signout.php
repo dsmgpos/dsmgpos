@@ -28,10 +28,7 @@ session_destroy();
     <title>Logging Out.. | DSMG Secure Page</title>
     <meta http-equiv="refresh" content="2; url=index">
     <link rel="shortcut icon" href="https://static.dsgroupmedia.com/icon.png">
-    <script src="https://kit.fontawesome.com/aa09fdd343.js"></script>
-    <link href="assets/css/logout.css" rel="stylesheet">
     <style>
-    @import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap");
 
     * {
         margin: 0;
