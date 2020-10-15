@@ -10,7 +10,7 @@
          stopOnFailure="false">
     <testsuites>
         <testsuite name="Test">
-            <file>index.php</file>
+            <file>./dashboard/lib/index-lib.php</file>
         </testsuite>
     </testsuites>
      <logging>
