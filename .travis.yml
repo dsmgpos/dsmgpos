@@ -8,7 +8,7 @@ php:
 before_script:
     - travis_retry composer self-update
     - travis_retry composer install --no-interaction --prefer-source --dev
-    - cp .env.dsmg.example .env.dsmg.sec
+    - cp env.dsmg.example env.dsmg.sec
 
 script:
     - vendor/bin/phpunit --coverage-clover coverage.xml
