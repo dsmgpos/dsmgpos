@@ -10,15 +10,10 @@
          stopOnFailure="false">
     <testsuites>
         <testsuite name="Feature">
-            <directory suffix=".php">./</directory>
+            <file>*.php</file>
         </testsuite>
 
     </testsuites>
-    <filter>
-        <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./app</directory>
-        </whitelist>
-    </filter>
      <logging>
        <log type="coverage-clover" target="clover.xml"/>
    </logging>
