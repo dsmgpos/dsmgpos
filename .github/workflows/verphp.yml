@@ -1,4 +1,4 @@
-    name: PHP Checker
+    name: Git Checkout
 
     on: [push]
 
@@ -11,19 +11,3 @@
             uses: actions/checkout@v1
             with:
               fetch-depth: 0
-          - name: PHP Syntax Checker (Lint) 7.2
-            uses: StephaneBour/actions-php-lint@7.2
-            with:
-              dir: './'
-          - name: PHP Syntax Checker (Lint) 7.4
-            uses: StephaneBour/actions-php-lint@7.4
-            with:
-              dir: './'
-          - name: PHP Syntax Checker (Lint) 7.2
-            uses: StephaneBour/actions-php-lint@7.2
-            with:
-              dir: './dashboard'
-          - name: PHP Syntax Checker (Lint) 7.4
-            uses: StephaneBour/actions-php-lint@7.4
-            with:
-              dir: './dashboard'

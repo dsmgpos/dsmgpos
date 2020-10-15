@@ -1,0 +1,17 @@
+    name: PHP 7.2 Test Dashboard
+
+    on: [push]
+
+    jobs:
+      build:
+        name: Check
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout
+            uses: actions/checkout@v2
+            with:
+              fetch-depth: 0
+          - name: PHP Syntax Checker (Lint) 7.2
+            uses: StephaneBour/actions-php-lint@7.2
+            with:
+              dir: './dashboard'
